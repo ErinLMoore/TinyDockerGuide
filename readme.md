@@ -3,6 +3,9 @@
 <center>  For the purposes of testing out your C kata
 -----------------
 ***
+
+1. [Install Docker](https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker). You can download the .dmg off of the linked site, or use homebrew.
+
 1. Get [Docker for Mac](https://docs.docker.com/docker-for-mac/). Install this. Have it running. It takes care of running the Docker daemon for you. If you want to use a command-line tool instead, look into Docker Machine.
 
 2. Put the Dockerfile into a new directory. Let's call it 'dockerpractice' Put your code files in a subfolder there called 'code'
