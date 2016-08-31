@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     check \
     git \
-    nano \
+    vim \
     pkg-config
 
 VOLUME ["/code"]

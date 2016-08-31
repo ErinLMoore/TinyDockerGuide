@@ -2,7 +2,7 @@
 ==========
 <center>  For the purposes of testing out your C kata
 -----------------
-***
+****
 
 1. [Install Docker](https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker). You can download the .dmg off of the linked site, or use homebrew.
 
@@ -14,7 +14,7 @@
 `docker build -t c-kata-14.04-check .` . -t sets a tag for this build to be used later.
 
 4. To [run the Docker container](https://docs.docker.com/engine/tutorials/dockerizing/): from the directory do
-`docker run -i -t --name kata -v /Users/yourusernamehere/TinyDockerGuide/code:/code c-kata-14.04-check /bin/bash`. "Code" here is both the name of the directory we put your project in, and the name of the working directory docker starts in. -i and -t start you off in an interactive terminal. Obviously, change the path to whatever is correct for where you put your dockerpractice directory.
+`docker run -i -t --name kata -v /Users/YourUserName/TinyDockerGuide/code:/code c-kata-14.04-check /bin/bash`. "Code" here is both the name of the directory we put your project in, and the name of the working directory docker starts in. -i and -t start you off in an interactive terminal. Obviously, change the path to whatever is correct for where you put your dockerpractice directory.
 
 5. You should end up inside the directory
 with your code, from which you can just run 'make' or whatever you like.  To run this particular sample code, do 'make' and then 'make run_tests'
